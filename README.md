@@ -11,13 +11,13 @@ Project 3 in CS382 is a classic vertical space shoot-'em-up built in Unity, foll
 
 ## Features
 
-- **Five enemy types** (`Enemy_0` to `Enemy_4`), each with its own movement pattern:
+- **Six enemy types** (`Enemy_0` to `Enemy_5`), each with its own movement pattern:
   - `Enemy_0`: flies straight down
   - `Enemy_1`: sine-wave sway
   - `Enemy_2`: diagonal sweep with a spin
   - `Enemy_3`: curved Bezier path
   - `Enemy_4`: shielded ship that moves between random points
-- **Bonus enemy** (`Enemy_5`): speeds up once it passes a set height on the screen.
+  - `Enemy_5`: speeds up once it passes a set height on the screen. (**Bonus enemy**)
 - **Weapons and power-ups:** blaster and spread shot, plus shield power-ups dropped by destroyed enemies.
 - **Player damage:** enemies that touch the ship lower its shield level. The ship is destroyed when the shield drops below zero.
 - **Scrolling starfield:** a parallax background that scrolls continuously and shifts slightly as the ship moves.
