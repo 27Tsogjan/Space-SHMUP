@@ -98,8 +98,8 @@ public class Main: MonoBehaviour {
     static public void SHIP_DESTROYED(Enemy e) {
         SCORE += e.score;
 
-        if (Random.value <= e.powerUpDropChance) {
-            int ndx = Random.Range(0, S.powerUpFrequency.Length);
+        if (UnityEngine.Random.value <= e.powerUpDropChance) {
+            int ndx = UnityEngine.Random.Range(0, S.powerUpFrequency.Length);
             eWeaponType pUpType = S.powerUpFrequency[ndx];
 
             GameObject go = Instantiate<GameObject>(S.prefabPowerUp);
